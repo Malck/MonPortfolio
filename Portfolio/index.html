@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--fontAwesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--Swiper Css-->
+    <link rel="stylesheet" href="asset/css/swiper-bundle.min.css"> 
+
+    <!--Css-->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+    <title>Portfolio Malcolm</title>
+    <link rel="icon" type="image/png" href="asset/img/portfolio.png" />
+
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Malcolm</a>
+
+            <div class="nav_menu" id="nav-menu">
+
+                <ul class="nav_list grid">
+
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="fa-solid fa-house nav_icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="fa-solid fa-user nav_icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="fa-solid fa-book-bookmark nav_icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="fa-solid fa-briefcase nav_icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="fa-solid fa-file-image nav_icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="fa-solid fa-comment nav_icon"></i>Contactme
+                        </a>
+                    </li>
+
+                </ul>
+
+                <i class="fa-solid fa-xmark nav_close " id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+               <!--Change Theme button-->
+               <i class="fa-solid fa-moon change-theme" id="theme-button"></i> 
+               
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+
+                <div class="home_content grid">
+
+                <div class="home_img">
+                    
+                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            <image class="home_blob-img" x="15" y="-33" xlink:href="asset/img/profilCV2.png"/>
+                        </g>
+                    </svg>
+                    
+                </div>
+                
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/malcolm-coutteel-x-dev-front-end-x-js-react/" class="home_social-icon" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+                    <a href="https://github.com/Malck" class="home_social-icon" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:CoutteelCode@gmail.com" class="home_social-icon" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="home_data">
+                    <h1 class="home_title">Je suis Malcolm</h1>
+                    <h3 class="home_subtitle">Developpeur Frontend</h3>
+                    <p class="home_description">J'utilise principalement Javascript et React pour faire le developpement de site web ou application. 
+                        
+                    </p>
+                    <a href="#contact" class="button button--flex">
+                        Contactez Moi <i class="uil uil-message button_icon"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="home_scroll">
+                <a href="#about" class="home_scroll-button button--flex">
+                    <i class="fa-solid fa-computer-mouse"></i>
+                    <span class="home_scroll-name">Scroll down</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section_title">A propos de moi</h2>
+            <span class="section_subtitle"></span>
+
+            <div class="about_container container grid">
+                <img src="asset/img/psgreal.jpg" alt="" class="about_img">
+
+                <div class="about_data">
+                    
+                    <p class="about_description">J'ai commencé par faire mes études dans le domaine de l'environnement sur les forêts (faune et flore)
+                        mais ayant toujours été très interessé par l'informatique, je me suis finalement réorienté dans cette filière. 
+                        Ainsi j'ai pu acquérir un certain nombre de compétences en Html Css Javascript et React. </p>
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">01+</span>
+                            <span class="about_info-name">Années <br>d'études</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">15+</span>
+                            <span class="about_info-name">Projets<br> completés</span>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div class="about_buttons">
+                        <a download="" href="asset/pdf/Malcolm_CV_Dev.pdf" class="button button--flex">
+                            Telecharger mon cv
+                            <i class="fa-solid fa-download button_icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            
+
+            <div class="skills_container container grid">
+                <div>
+                    <!--Skills 1 -->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="fa-solid fa-code skills_icon"></i>
+                            
+                            <div>
+                                <h1 class="skills_title">Front End</h1>
+                            </div>
+
+                            <i class="fa-solid fa-arrow-down skills_arrow"></i>
+
+                        </div>
+
+                        <div class="skills_list grid">
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Javascript</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">React</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+                    <!--skills 2 -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fa-solid fa-code skills_icon"></i>
+                            
+                            <div>
+                                <h1 class="skills_title">Design</h1>
+                            </div>
+
+                            <i class="fa-solid fa-arrow-down skills_arrow"></i>
+
+                        </div>
+
+                        <div class="skills_list grid">
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Figma</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Photoshop</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Resolve</h3>
+                                    <span class="skills_number"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_resolve"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section_title">Mon parcours</h2>
+            
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex">
+                        <i class="fa-solid fa-graduation-cap qualification_icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification_sections">
+                        <div class="qualification_content">
+
+                            <!--QUALIFICATION 1 -->
+                            <div class="qualification_data">
+                                
+                                <div class="qualification_box">
+                                    <h3 class="qualification_title">Brevet
+                                    </h3>
+                                    
+                                    <span class="qualification_subtitle">Champcueil - College</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        2007 - 2011
+                                    </div>
+                                </div>
+
+                                <div class="qualification_stick">
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                
+                            </div>
+
+                            <!--QUALIFICATION 2 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div class="qualification_stick">
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div class="qualification_box">
+                                    <h3 class="qualification_title">Bac Scientifique
+                                    </h3>
+                                    
+                                    <span class="qualification_subtitle">Mennecy - Lycée</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        2011 - 2015
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--QUALIFICATION 3 -->
+                            <div class="qualification_data">
+                                <div class="qualification_box">
+                                    <h3 class="qualification_title">BTSA 
+                                    </h3>
+                                    
+                                    <span class="qualification_subtitle">Loperec - Etablissement agricole/forestier </span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        2015 - 2018
+                                    </div>
+                                </div>
+
+                                <div class="qualification_stick">
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            <!--QUALIFICATION 4 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div class="qualification_stick">
+                                    <span class="qualification_rounder"></span>
+                                </div>
+
+                                <div class="qualification_box">
+                                    <h3 class="qualification_title">Developpeur Front End
+                                    </h3>
+                                    
+                                    <span class="qualification_subtitle">Paris - Openclassrooms</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        2021-2022
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section_title">Mes services</h2>
+            <span class="section_subtitle"></span>
+
+            <div class="services_container container grid">
+
+                <!--Service 1 -->
+                <div class="services_content">
+                    <div>
+                        <i class="fa-solid fa-border-none services_icon"></i>
+                        <h3 class="services_title">Ui/Ux <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Voir plus
+                        <i class="fa-solid fa-arrow-right-from-bracket button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">ui/ux <br> Designer</h4>
+                            <i class="fa-solid fa-xmark services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>Web page development </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I create ux element interactions </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Service 2 -->
+                <div class="services_content">
+                    <div>
+                        <i class="fa-solid fa-code services_icon"></i>
+                        <h3 class="services_title">Front End <br> Developpeur</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Voir plus
+                        <i class="fa-solid fa-arrow-right-from-bracket button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">ui/ux <br> Designer</h4>
+                            <i class="fa-solid fa-xmark services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>Web page development </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I create ux element interactions </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Service 3 -->
+                <div class="services_content">
+                    <div>
+                        <i class="fa-solid fa-pencil services_icon"></i>
+                        <h3 class="services_title">Branding <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Voir plus
+                        <i class="fa-solid fa-arrow-right-from-bracket button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Branding <br> Designer</h4>
+                            <i class="fa-solid fa-xmark services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>Web page development </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I create ux element interactions </p>
+                                </li>
+                                <li class="services_modal-service">
+                                    
+                                    <i class="fa-regular fa-circle-check services_modal-icon"></i>
+                                    <p>I developp the user interface </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Projets Recents</span>
+
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--portoflio 1 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="asset/img/portfolioReser.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Reservia website</h3>
+                            
+                            <p class="portfolio_description">Site de réservation d'hôtels</p>
+                            <a href="https://malck.github.io/MalcolmCoutteel_2_16072021/" target="_blank" class="button button--flex button--small portfolio_button Reservia">
+                                Démo 
+                                <i class="fa-solid fa-arrow-up-right-dots button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--portoflio 2 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="asset/img/portfolioFisheye.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Fisheye website</h3>
+                            
+                            <p class="portfolio_description">Plateforme pour photographes </p>
+                            <a href="https://malck.github.io/MalcolmCoutteel_6_07102021/" target="_blank" class="button button--flex button--small portfolio_button Fisheye">
+                                <p>
+                                    Démo 
+                                </p>
+                                <i class="fa-solid fa-arrow-up-right-dots button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--portoflio 3 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="asset/img/portfolioOhmyfood.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">OhMyFood website</h3>
+                            
+                            <p class="portfolio_description">Site de restauration</p>
+                            <a href="https://malck.github.io/MalcolmCoutteel_3_23082021/" target="_blank" class="button button--flex button--small portfolio_button OhMyFood">
+                                Démo 
+                                <i class="fa-solid fa-arrow-up-right-dots button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"><i class="fa-solid fa-angle-right swiper-portfolio-icon"></i></div>
+                <div class="swiper-button-prev"><i class="fa-solid fa-angle-left swiper-portfolio-icon"></i></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contactez Moi </h2>
+            <span class="section_subtitle"></span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+
+                        <i class="fa-solid fa-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Telephone</h3>
+                            <span class="contact_subtitle">06 85 07 73 67</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <a href="mailto:CoutteelCode@gmail.com"><i class="fa-solid fa-envelope contact_icon"></i></a>
+                        
+                        <div>
+                            <h3 class="contact_title">
+                                Email
+                            </h3>
+                            <span class="contact_subtitle">CoutteelCode@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="fa-solid fa-location-pin contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Lieu</h3>
+                            <span class="contact_subtitle">France - Antony(92160)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_input grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Nom</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex">
+                            Envoyer
+                            <i class="fa-solid fa-paper-plane button_icon"></i>
+                        </a>
+                    </div>
+
+                </form>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Malcolm</h1>
+                    <span class="footer_subtitle">Developpeur Front End</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contactez-moi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--Scroll top -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-angles-up scrollup_icon"></i>
+    </a>
+
+    <!--Swiper JS-->
+    <script src="asset/js/swiper-bundle.min.js"></script>
+
+    <!--Main js-->
+    <script src="asset/js/index.js"></script>
+    
+    
+</body>
+</html>
