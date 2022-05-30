@@ -1,0 +1,50 @@
+/*==================== ABOUT ====================*/
+.section_subtitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: var(--h2-font-size);
+}
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+    height: 265px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+    line-height: 1.6;
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about_info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about_info-title,
+.about_info-name{
+    display: block;
+    text-align: center;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center;
+}

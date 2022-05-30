@@ -1,0 +1,67 @@
+/*==================== HOME ====================*/
+.home_container{
+    gap: 1rem;
+}
+
+.home_content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+.home_social-icon{
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home_blob{
+    fill: var(--first-color);
+    width: 200px;
+
+}
+.home_blob-img{
+    width: 170px;
+}
+.home_data{
+    grid-column: 1/3;
+}
+.home_title{
+    font-size:var(--h1-font-size);
+}
+.home_subtitle{
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+.home_description{
+    margin-bottom: var(--mb-2);
+}
+.home_scroll{
+    display: none;
+}
+.home_scroll-button{
+    color: var(--first-color);
+    transition: .3s;
+}
+.home_scroll-button:hover{
+    transform: translateY(.25rem);
+}
+.home_scroll-mouse{
+    font-size: 2rem;
+}
+
+.home_scroll-name{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.homescroll-arrow{
+    font-size: 1.25rem;
+}
