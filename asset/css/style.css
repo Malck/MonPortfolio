@@ -20,8 +20,8 @@
    --first-color-alt : hsl(var(--hue-color), 55%, 35%);
    --first-color-lighter : hsl(var(--hue-color), 90%, 75%);
    --title-color : hsl(var(--hue-color), 15%, 25%);
-   --text-color :  hsl(var(--hue-color), 15%, 45%);
-   --text-color-light : hsl(var(--hue-color), 15%, 55%); 
+   --text-color :  hsl(var(--hue-color), 15%, 40%);
+   --text-color-light : hsl(var(--hue-color), 15%, 50%); 
    --input-color : hsl(var(--hue-color), 80%, 85%);
    --body-color : hsl(var(--hue-color), 70%, 95%);
    --container-color : #fff;
@@ -35,7 +35,7 @@
    --h2-font-size: 1.25rem;
    --h3-font-size: 1.125rem;
    --normal-font-size: 1rem;
-   --small-font-size: 0.913rem;
+   --small-font-size: 0.970rem;
    --smaller-font-size: 0.80rem;
 
    --font-medium: 500;
@@ -61,7 +61,7 @@
 @media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
+        --h1-font-size: 2.0rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
@@ -140,10 +140,6 @@ img {
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;*/
 }
 .section_title {
   font-size: var(--h1-font-size);
@@ -151,7 +147,7 @@ img {
 }
 .section_subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-3);
 }
 .section_title, 
@@ -342,9 +338,10 @@ img {
 .scrollup:hover{
     background-color: var(--first-color-alt);
 }
-.scrollup_icon{
-    font-size:1.5rem;
-    color: #FFF;
+.scrollup_icon {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    padding: 2px;
 }
 /* Show scroll */
 .show-scroll{
@@ -505,7 +502,7 @@ img {
         column-gap: 2rem;
     }
     .home_blob{
-        width: 270px;
+        width: 250px;
     }
     .home_scroll{
         display: block;
@@ -537,7 +534,7 @@ img {
         grid-template-columns: .5fr;
     }
     .services_container{
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(2, 218px);
         justify-content: center;
     }
     .services_icon{
@@ -587,8 +584,23 @@ img {
     .home_social{
         transform: translateX(-6rem);
     }
+    .home_subtitle {
+        margin-bottom: var(--mb-2-5);
+        font-size: 20px;
+    }
+    .home_description {
+        margin-bottom: var(--mb-2-5);
+        font-size: 17px;
+    }
+    .home_title {
+        font-size: var(--h1-font-size);
+        padding-bottom: 10px;
+    }
+    .home_social-icon {
+        font-size: 25px;
+    }
     .services_container{
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(2, 238px);
     }
     .portfolio_content{
         column-gap: 5rem;
@@ -615,4 +627,12 @@ img {
     .contact_inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+    .contact_div {
+        width: min-content;
+        margin: 0 auto;
+    }
+    .contact h2{
+        padding-bottom:30px;
+    }
+    
 }
