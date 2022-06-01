@@ -2,10 +2,18 @@
 .contact_container{
     row-gap: 3rem;
 }
+.contact_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 15px;
+    gap: 20px;
+}
 
 .contact_information{
     display: flex;
     margin-bottom: var(--mb-2);
+    align-items: center;
 }
 
 .contact_icon{

@@ -24,6 +24,10 @@
 .skills_icon{
     margin-right: var(--mb-0-75);
 }
+i.fa-solid.fa-border-none.skills_icon {
+    font-size: xx-large;
+    padding-right: 2px
+}
 
 .skills_title{
     font-size: var(--h3-font-size);
