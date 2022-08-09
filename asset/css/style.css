@@ -15,7 +15,7 @@
    --hue-color: 220;  /*Blue 220 - Green 130 - Purple 265 - Pink 340 - Red 10 */
 
    /*color*/
-   --first-color : hsl(var(--hue-color), 78%, 45%);
+   --first-color : hsl(var(--hue-color), 78%, 55%);
    --first-color-second : hsl(var(--hue-color), 78%, 45%);
    --first-color-alt : hsl(var(--hue-color), 55%, 35%);
    --first-color-lighter : hsl(var(--hue-color), 90%, 75%);
@@ -297,6 +297,7 @@ img {
 .footer_container{
     row-gap: 3.5rem;
 }
+
 .footer_bg{
     background-color: var(--first-color-second);
     padding: 2rem 0 3rem;
@@ -341,7 +342,7 @@ img {
 .scrollup_icon {
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
-    padding: 2px;
+    padding: 4px 2px;
 }
 /* Show scroll */
 .show-scroll{
