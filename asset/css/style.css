@@ -98,6 +98,48 @@ body.dark-theme{
 .change-theme:hover {
     color: var(--first-color);
 }
+/*==================== Loader Spinner ====================*/
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    animation: loading 2.5s linear both;
+}
+.spinner{
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    inset: 0;
+    background: linear-gradient(90deg,#fb009267,#0000ff,#00ff55,#ffff00,#fb009267,#0000ff,#00ff00,#ffff00,#fb0094);
+    animation: animate 8s linear infinite;
+    background-size: 500%;
+}
+@keyframes loading {
+    0% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 500% 0; 
+    }
+}
 
 /*==================== BASE ====================*/
 * {
@@ -516,7 +558,7 @@ img {
     }
     /*
     .about_img{
-        width: 350px;                       /************************************************************
+        width: 350px;      
     }
     */
     .about_description{
