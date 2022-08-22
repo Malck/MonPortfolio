@@ -642,6 +642,10 @@ img {
     .home_social-icon {
         font-size: 25px;
     }
+    .home_social-icon .fa-linkedin {
+        font-size: 27px;
+    }
+   
     .services_container{
         grid-template-columns: repeat(2, 238px);
     }

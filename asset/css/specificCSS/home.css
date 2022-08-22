@@ -17,6 +17,9 @@
     font-size: 1.25rem;
     color: var(--first-color);
 }
+.home_social-icon .fa-linkedin {
+    font-size: 1.35rem;
+}
 
 .home_blob{
     fill: var(--first-color);
