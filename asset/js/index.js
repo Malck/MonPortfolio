@@ -158,3 +158,25 @@ themeButton.addEventListener('click', () => {
 })
 
 
+
+//Animation du texte avec 
+
+const textAnim = document.querySelector('h3');
+
+new Typewriter(textAnim, {
+    loop: true,
+    deleteSpeed:30
+})
+.typeString('Développeur Front-End')
+.pauseFor(500)
+.deleteChars(9)
+.typeString('Application')
+.pauseFor(500)
+.deleteChars(11)
+.typeString('<span style="color:hsl(var(--hue-color), 78%, 55%)">Javascript</span> !')
+.pauseFor(1000)
+.deleteChars(12)
+.typeString('<span style="color:hsl(var(--hue-color), 78%, 55%)">React</span> !')
+.pauseFor(1000)
+.deleteChars(7)
+.start()
